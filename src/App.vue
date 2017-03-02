@@ -51,6 +51,14 @@
         padding: 0;
         margin: 0;
     }
+    button {
+        box-shadow: none;
+        border: none;
+        outline: none;
+        padding: 0 10px;
+        cursor: pointer;
+        user-select: none;
+    }
 
     .clearfix:after {
         clear: both;
@@ -71,6 +79,7 @@
         padding: 0 65px;
         width: 100%;
         left: 0;
+        z-index: 10;
         .icon-logo {
             float: left;
         }
