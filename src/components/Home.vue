@@ -96,9 +96,7 @@
                 </div>
             </div>
         </div>
-        <div class="home-footer">
-            版权所有  ©  2017 云库汇（北京）金融服务外包有限公司  京ICP备16000243号
-        </div>
+
     </div>
 </template>
 
@@ -116,18 +114,6 @@
             map.centerAndZoom(point, 16);                 // 初始化地图，设置中心点坐标和地图级别
             map.addOverlay(new BMap.Marker(point));
             document.getElementById('baidu-map-div').scrollTop=10;
-            // 创建地址解析器实例
-//            var myGeo = new BMap.Geocoder();
-//            // 将地址解析结果显示在地图上,并调整地图视野
-//            myGeo.getPoint("北京市朝阳区光华路1号嘉里中心", function (point) {
-//                if (point) {
-//                    console.log(point)
-//                    map.centerAndZoom(point, 16);
-//                    map.addOverlay(new BMap.Marker(point));
-//                } else {
-//                    alert("您选择地址没有解析到结果!");
-//                }
-//            }, "北京市");
         }
     }
 </script>
@@ -171,13 +157,7 @@
                 }
             }
         }
-        .home-footer {
-            height: 40px;
-            background-color: #e3e3e3;
-            text-align: center;
-            font-size: 12px;
-            line-height: 40px;
-        }
+
         .panel {
             width: 100%;
             .panel-body {

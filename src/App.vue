@@ -4,7 +4,7 @@
             <i class="icon-logo"></i>
             <ul>
                 <li>
-                    <router-link to="/">首页</router-link>
+                    <router-link to="/home">首页</router-link>
                 </li>
                 <li>
                     <router-link to="/feature">平台功能</router-link>
@@ -20,7 +20,12 @@
                 </li>
             </ul>
         </div>
-        <router-view></router-view>
+        <div class="app-body">
+            <router-view></router-view>
+        </div>
+        <div class="footer">
+            版权所有  ©  2017 云库汇（北京）金融服务外包有限公司  京ICP备16000243号
+        </div>
     </div>
 </template>
 
@@ -36,6 +41,7 @@
         width: 100%;
         margin: 0;
         padding: 0;
+
     }
 
     body {
@@ -51,6 +57,7 @@
         padding: 0;
         margin: 0;
     }
+
     button {
         box-shadow: none;
         border: none;
@@ -64,6 +71,14 @@
         clear: both;
         content: "";
         display: block;
+    }
+
+    .pull-left {
+        float: left;
+    }
+
+    .pull-right {
+        float: right;
     }
 
     .icon-logo {
@@ -100,11 +115,22 @@
             }
         }
     }
+    .app-body {
+        min-height: calc(100% - 40px);
+    }
+    .footer {
+        height: 40px;
+        background-color: #e3e3e3;
+        text-align: center;
+        font-size: 12px;
+        line-height: 40px;
+    }
 
     #app {
-        font-family: 'Avenir', Helvetica, Arial, sans-serif;
+        font-family: 'Microsoft YaHei', 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         width: 100%;
+        height: 100%;
     }
 </style>
