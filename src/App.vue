@@ -118,6 +118,20 @@
     .app-body {
         min-height: calc(100% - 40px);
     }
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-weight: normal;
+        font-size: 60px;
+        font-family: 'PingFangSC-Thin' !important;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 100px;
+        color: #fff;
+    }
     .footer {
         height: 40px;
         background-color: #e3e3e3;
@@ -127,7 +141,7 @@
     }
 
     #app {
-        font-family: 'Microsoft YaHei', 'Avenir', Helvetica, Arial, sans-serif;
+        font-family: 'PingFangSC-Regular', 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         width: 100%;

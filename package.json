@@ -1,8 +1,8 @@
 {
-  "name": "yumhuiku",
+  "name": "yunkuhui",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "杨金光 <yangjg@jiedaibao.com>",
+  "description": "云库汇官网",
+  "author": "杨金光 <yangjg201202@163.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

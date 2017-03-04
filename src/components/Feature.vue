@@ -1,7 +1,7 @@
 <template>
     <div id="feature">
-        <img class="feature-banner" src="../assets/feature-banner.png">
-        <h2 class="feature-title">平台功能</h2>
+        <img class="banner-img" src="../assets/feature-banner.png">
+        <h2 class="banner-title">平台功能</h2>
         <div class="feature-list clearfix">
             <div class="fl">
                 <i class="fl-icon icon-1"></i>
@@ -36,21 +36,6 @@
 <style scoped lang="scss" rel="stylesheet/scss">
     #feature {
         width: 100%;
-    }
-
-    .feature-banner {
-        width: 100%;
-    }
-
-    .feature-title {
-        font-weight: normal;
-        font-size: 60px;
-        font-family: 'PingFangSC-Thin' !important;
-        position: absolute;
-        width: 100%;
-        text-align: center;
-        top: 100px;
-        color: #fff;
     }
 
     .feature-list {

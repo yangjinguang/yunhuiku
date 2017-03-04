@@ -32,9 +32,10 @@ export default new Router({
             component: About
         },
         {
-            path: '/help',
+            path: '/help/:tab',
             name: 'help',
             component: Help
-        }
+        },
+        {path: '/help', redirect: '/help/1'}
     ]
 });

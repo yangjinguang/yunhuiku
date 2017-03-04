@@ -1,7 +1,7 @@
 <template>
     <div id="security">
-        <img class="security-banner" src="../assets/security-banner.png">
-        <h2 class="security-title">网站安全策略</h2>
+        <img class="banner-img" src="../assets/security-banner.png">
+        <h2 class="banner-title">网站安全策略</h2>
         <div class="panel panel-1">
             <div class="panel-body clearfix">
                 <div class="panel-icon-part pull-left">
@@ -88,21 +88,6 @@
 <style scoped lang="scss" rel="stylesheet/scss">
     #security {
         width: 100%;
-    }
-
-    .security-banner {
-        width: 100%;
-    }
-
-    .security-title {
-        font-weight: normal;
-        font-size: 60px;
-        font-family: 'PingFangSC-Thin' !important;
-        position: absolute;
-        width: 100%;
-        text-align: center;
-        top: 100px;
-        color: #fff;
     }
 
     .panel {
