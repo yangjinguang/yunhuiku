@@ -1,7 +1,10 @@
 <template>
     <div id="feature">
-        <img class="banner-img" src="../assets/feature-banner.png">
-        <h2 class="banner-title">平台功能</h2>
+        <div class="banner">
+            <h2 class="banner-title">平台功能</h2>
+        </div>
+        <!--<img class="banner-img" src="../assets/feature-banner.png">-->
+
         <div class="feature-list clearfix">
             <div class="fl">
                 <i class="fl-icon icon-1"></i>
@@ -36,6 +39,10 @@
 <style scoped lang="scss" rel="stylesheet/scss">
     #feature {
         width: 100%;
+    }
+
+    .banner {
+        background: url(../assets/feature-banner.png) no-repeat center  / cover;
     }
 
     .feature-list {

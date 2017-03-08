@@ -37,6 +37,8 @@
 
 <style lang="scss" rel="stylesheet/scss">
     html, body {
+        min-width: 1024px;
+        min-height: 768px;
         height: 100%;
         width: 100%;
         margin: 0;
@@ -95,6 +97,7 @@
         width: 100%;
         left: 0;
         z-index: 10;
+        min-width: 1024px;
         .icon-logo {
             float: left;
         }
@@ -118,6 +121,10 @@
     .app-body {
         min-height: calc(100% - 40px);
     }
+    .banner {
+        width: 100%;
+        height: 300px;
+    }
     .banner-img {
         width: 100%;
     }
@@ -138,6 +145,7 @@
         text-align: center;
         font-size: 12px;
         line-height: 40px;
+        min-width: 1024px;
     }
 
     #app {

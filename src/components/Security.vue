@@ -1,7 +1,8 @@
 <template>
     <div id="security">
-        <img class="banner-img" src="../assets/security-banner.png">
-        <h2 class="banner-title">网站安全策略</h2>
+        <div class="banner">
+            <h2 class="banner-title">网站安全策略</h2>
+        </div>
         <div class="panel panel-1">
             <div class="panel-body clearfix">
                 <div class="panel-icon-part pull-left">
@@ -88,6 +89,10 @@
 <style scoped lang="scss" rel="stylesheet/scss">
     #security {
         width: 100%;
+    }
+
+    .banner {
+        background: url(../assets/security-banner.png) no-repeat center / cover;
     }
 
     .panel {

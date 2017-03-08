@@ -1,6 +1,6 @@
 <template>
     <div id="help">
-        <img class="banner-img" src="../assets/help-banner.png">
+        <div class="banner"></div>
         <div class="help-body">
             <div class="help-nav">
                 <ul>
@@ -602,7 +602,9 @@
     #help {
         width: 100%;
     }
-
+    .banner {
+        background: url(../assets/help-banner.png) no-repeat center  / cover;
+    }
     .help-body {
         position: relative;
         width: 868px;

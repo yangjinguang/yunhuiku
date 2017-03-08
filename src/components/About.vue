@@ -1,7 +1,8 @@
 <template>
     <div id="about">
-        <img class="banner-img" src="../assets/about-banner.png">
-        <h2 class="banner-title">关于我们</h2>
+        <div class="banner">
+            <h2 class="banner-title">关于我们</h2>
+        </div>
         <div class="about-content">
             <p>
                 云库汇（北京）金融服务外包有限公司，企业资产证券化专业服务商，由新华保险的创始人发起，以提供企业资产证券化专业服务为切入点，以构建企业资产证券化的互联网业务模式为依托，致力于提升企业资产证券化行业效率。使资产和资金以最高效的方式精准链接，使企业资产证券化以全新的互联网模式在金融创新中发挥更大的价值。
@@ -62,7 +63,9 @@
     #about {
         width: 100%;
     }
-
+    .banner {
+        background: url(../assets/about-banner.png) no-repeat center / cover;
+    }
     .about-content {
         width: 774px;
         margin: auto;
