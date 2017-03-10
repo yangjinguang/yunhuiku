@@ -93,10 +93,11 @@
 
         }
         .panel {
+            width: 100%;
             margin-top: 48px;
             border-top: 1px solid rgb(230, 230, 230);
             .panel-body {
-                width: 808px;
+                width: 100%;
                 padding: 50px 0;
                 font-family: "PingFangSC-Regular";
                 color: #333;
@@ -104,6 +105,7 @@
 
             .body-left {
                 float: left;
+                width: 50%;
                 h3 {
                     font-size: 30px;
                     font-weight: normal;
@@ -127,9 +129,11 @@
                 }
             }
             .body-right {
-                float: right;
+                width: 50%;
+                float: left;
+                text-align: right;
                 .about-qr {
-                    display: block;
+                    display: inline-block;
                     background: url(../assets/about-qr.jpg) no-repeat center / 180px 180px;
                     height: 160px;
                     width: 160px;
