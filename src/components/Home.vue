@@ -6,9 +6,9 @@
                 <div class="home-banner-word-bg">
                     <img class="home-banner-word" src="../assets/home-banner-word.png">
                 </div>
-                <button>企业用户登录</button>
-                <button>经纪人用户登录</button>
-                <button>个人用户登录</button>
+                <button @click="toLogin(0)">企业用户登录</button>
+                <button @click="toLogin(1)">会员用户登录</button>
+                <button @click="toLogin(2)">个人用户登录</button>
             </div>
         </div>
 
@@ -24,6 +24,23 @@
             }
         },
         mounted: () => {
+        },
+        methods: {
+            toLogin: (type) => {
+                let url;
+                switch (type) {
+                    case 0:
+                        url = '/static/login/companyLogin.html';
+                        break;
+                    case 1:
+                        url = '/static/login/agentLogin.html';
+                        break;
+                    case 2:
+                        url = '/static/login/personLogin.html';
+                        break;
+                }
+                window.open(url);
+            }
         }
     }
 </script>
