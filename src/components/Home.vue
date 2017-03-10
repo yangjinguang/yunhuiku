@@ -54,8 +54,9 @@
             width: 100%;
             position: absolute;
             height: calc(100% - 40px);
+            min-height: 728px;
             left: 0;
-            background: url(../assets/home-banner.png) no-repeat center / cover;
+            background: url(../assets/home-banner.png) no-repeat center center / cover;
             .home-banner-opt {
                 position: absolute;
                 width: 100%;
