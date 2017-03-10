@@ -110,6 +110,8 @@
                     display: block;
                     height: 37px;
                     color: #fff;
+                    font-size: 15px;
+                    font-family: "MicrosoftYaHei";
                     text-decoration: none;
                     &.router-link-active {
                         border-bottom: 4px solid #fff;
@@ -123,7 +125,8 @@
     }
     .banner {
         width: 100%;
-        height: 300px;
+        height: 250px;
+        position: relative;
     }
     .banner-img {
         width: 100%;
@@ -131,16 +134,18 @@
 
     .banner-title {
         font-weight: normal;
-        font-size: 60px;
+        font-size: 40px;
         font-family: 'PingFangSC-Thin' !important;
         position: absolute;
         width: 100%;
         text-align: center;
-        top: 100px;
+        margin: 0;
+        top: calc(50% - 20px);
         color: #fff;
     }
     .footer {
         height: 40px;
+        width: 100%;
         background-color: #e3e3e3;
         text-align: center;
         font-size: 12px;

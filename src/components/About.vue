@@ -4,21 +4,21 @@
             <h2 class="banner-title">关于我们</h2>
         </div>
         <div class="about-content">
-            <p>
-                云库汇（北京）金融服务外包有限公司，企业资产证券化专业服务商，由新华保险的创始人发起，以提供企业资产证券化专业服务为切入点，以构建企业资产证券化的互联网业务模式为依托，致力于提升企业资产证券化行业效率。使资产和资金以最高效的方式精准链接，使企业资产证券化以全新的互联网模式在金融创新中发挥更大的价值。
-            </p>
-            <p>
-                云库汇企业ABS服务平台旨在为企业资产证券化参与方扫清障碍，搭建企业ABS底层资产与资金对接的云数据平台，通过金融科技手段有效减少基础资产信息不对称，致力成为企业资产证券化行业中最值得信赖的专业服务平台。
-            </p>
-            <p>
-                云库汇与中国人民银行和国家信息安全管理机构批准成立的
-                国家级权威安全认证机构，中国金融认证中心（简称CFCA）合作，建立独立的第三方电子签约平台（电子合同服务提供商）。在所提供的电子合同订立系统中所订立的合同采用可靠的电子签名技术形成不可篡改的数据电文，能够保证其过程的公正性和结果的有效性。依据电子合同以及电子签章的相关法律，保障电子合同的合法性，维护缔约方的合法权益。
-            </p>
-            <hr>
+            <h4 class="ac-title">国内首家独立第三方企业资产证券化专业服务商</h4>
+            <div class="about-info">
+                <img style="float: left" src="../assets/about-img-1.png">
+                <p>
+                    云库汇是中国领先企业资产证券化专业服务商，致力于构建企业资产证券化业务的互联网模式，搭建企业资产证券化底层资产与资金对接的云数据平台，汇聚优质企业ABS资产，提供电子合同、电子台账、信息穿透、基础资产筛选、基础资产监管报告、ABS专业培训、交易撮合，量化分析，等专业服务。解决基础资产信息不对称、业务周期长、存续期管理手段匮乏等问题，智能匹配供需双方需求，促进资产证券化市场健康发展。致力成为企业资产证券化行业中最值得信赖的科技金融服务平台。
+                </p>
+                <p>
+                    云库汇与中国人民银行和国家信息安全管理机构批准成立的国家级权威安全认证机构，中国金融认证中心（简称CFCA）合作，建立独立的第三方电子签约平台（电子合同服务提供商）。在所提供的电子合同订立系统中所订立的合同采用可靠的电子签名技术形成不可篡改的数据电文，能够保证其过程的公正性和结果的有效性。依据电子合同以及电子签章的相关法律，保障电子合同的合法性，维护缔约方的合法权益。
+                </p>
+            </div>
             <div class="panel">
                 <div class="panel-body clearfix">
                     <div class="body-left">
                         <h3>联系我们</h3>
+                        <h4>云库汇（北京）金融服务外包有限公司</h4>
                         <p>
                             <span>市场合作</span>
                             <span>market@yunkuhui.com</span>
@@ -33,9 +33,8 @@
                         </p>
                     </div>
                     <div class="body-right">
-                        <div id="baidu-map-div">
-                            <div id="baidu-map"></div>
-                        </div>
+                        <i class="about-qr"></i>
+                        <p>关注企业ABS ，关注最新资讯</p>
                     </div>
                 </div>
             </div>
@@ -51,11 +50,7 @@
             }
         },
         mounted: () => {
-            var map = new BMap.Map("baidu-map", {enableMapClick: false});          // 创建地图实例
-            var point = new BMap.Point(116.46709, 39.919541);  // 创建点坐标
-            map.centerAndZoom(point, 16);                 // 初始化地图，设置中心点坐标和地图级别
-            map.addOverlay(new BMap.Marker(point));
-            document.getElementById('baidu-map-div').scrollTop = 10;
+
         }
     }
 </script>
@@ -63,65 +58,87 @@
     #about {
         width: 100%;
     }
+
     .banner {
         background: url(../assets/about-banner.png) no-repeat center / cover;
     }
+
     .about-content {
-        width: 774px;
+        width: 783px;
         margin: auto;
         font-family: 'PingFangSC-Light';
         font-size: 16px;
         margin-top: 68px;
-        p:first-child {
-            margin-top: 0;
+        .ac-title {
+            font-size: 24px;
+            text-align: center;
         }
-        p:last-child {
-            margin-bottom: 0;
-        }
-        hr {
-            color: rgb(230, 230, 230);
-            margin-top: 120px;
+        .about-info {
+
+            img {
+                float: left;
+                width: 350px;
+                height: 262px;
+                padding: 20px;
+                padding-top: 0;
+                padding-left: 0;
+                padding-bottom: 0;
+            }
+            p {
+                font-size: 16px;
+                text-indent: 2em;
+                line-height: 1.9em;
+                margin: 0;
+            }
+
         }
         .panel {
+            margin-top: 48px;
+            border-top: 1px solid rgb(230, 230, 230);
             .panel-body {
                 width: 808px;
                 padding: 50px 0;
                 font-family: "PingFangSC-Regular";
-            }
-            h3 {
-                font-size: 30px;
-                font-weight: normal;
                 color: #333;
             }
-            p {
-                font-size: 16px;
-                color: #333;
-            }
+
             .body-left {
                 float: left;
                 h3 {
+                    font-size: 30px;
+                    font-weight: normal;
+                    font-family: "PingFangSC-Light";
                     margin-top: 0;
+                    margin-bottom: 24px;
+                }
+                h4 {
+                    font-size: 15px;
+                    margin: 0;
+                    margin-bottom: 20px;
                 }
                 p {
+                    font-size: 14px;
+                    font-family: "PingFangSC-Light";
                     span:first-child {
                         margin-right: 10px;
                     }
+                    margin-top: 0;
+                    margin-bottom: 12px;
                 }
             }
             .body-right {
                 float: right;
-                #baidu-map-div {
-                    width: 270px;
+                .about-qr {
+                    display: block;
+                    background: url(../assets/about-qr.jpg) no-repeat center / 180px 180px;
                     height: 160px;
-                    overflow: hidden;
-                    border-radius: 4px;
-                    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
-                    #baidu-map {
-                        width: 270px;
-                        height: 200px;
-                    }
+                    width: 160px;
+                    margin-bottom: 10px;
                 }
-
+                p {
+                    margin: 0;
+                    font-size: 12px;
+                }
             }
 
         }

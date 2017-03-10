@@ -611,7 +611,7 @@
         margin: auto;
         .help-nav {
             position: absolute;
-            top: -50px;
+            top: -40px;
             color: #fff;
             li {
                 display: inline-block;
