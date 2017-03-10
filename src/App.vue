@@ -38,7 +38,6 @@
 <style lang="scss" rel="stylesheet/scss">
     html, body {
         min-width: 1024px;
-        min-height: 768px;
         height: 100%;
         width: 100%;
         margin: 0;
