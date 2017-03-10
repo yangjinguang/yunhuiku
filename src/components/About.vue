@@ -71,6 +71,7 @@
         .ac-title {
             font-size: 24px;
             text-align: center;
+            font-weight: normal;
         }
         .about-info {
 
