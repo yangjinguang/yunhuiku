@@ -74,7 +74,7 @@
                     height: 38px;
                     width: 150px;
                     line-height: 38px;
-                    border-radius: 2px;
+                    border-radius: 6px;
                     color: #fff;
                     font-size: 15px;
                     margin-right: 40px;

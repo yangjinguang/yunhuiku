@@ -110,7 +110,7 @@
                     height: 37px;
                     color: #fff;
                     font-size: 15px;
-                    font-family: "MicrosoftYaHei";
+                    /*font-family: "MicrosoftYaHei";*/
                     text-decoration: none;
                     &.router-link-active {
                         border-bottom: 4px solid #fff;

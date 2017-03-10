@@ -66,7 +66,6 @@
     .about-content {
         width: 783px;
         margin: auto;
-        font-family: 'PingFangSC-Light';
         font-size: 16px;
         margin-top: 68px;
         .ac-title {
@@ -89,6 +88,7 @@
                 text-indent: 2em;
                 line-height: 1.9em;
                 margin: 0;
+                color: #666;
             }
 
         }
@@ -99,7 +99,6 @@
             .panel-body {
                 width: 100%;
                 padding: 50px 0;
-                font-family: "PingFangSC-Regular";
                 color: #333;
             }
 
@@ -109,9 +108,9 @@
                 h3 {
                     font-size: 30px;
                     font-weight: normal;
-                    font-family: "PingFangSC-Light";
                     margin-top: 0;
                     margin-bottom: 24px;
+                    color: #333;
                 }
                 h4 {
                     font-size: 15px;
@@ -120,7 +119,6 @@
                 }
                 p {
                     font-size: 14px;
-                    font-family: "PingFangSC-Light";
                     span:first-child {
                         margin-right: 10px;
                     }

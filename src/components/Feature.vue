@@ -79,8 +79,8 @@
         }
         p {
             margin: 0;
-            font-size: 12px;
-            color: #999;
+            font-size: 14px;
+            color: #666;
         }
     }
 </style>

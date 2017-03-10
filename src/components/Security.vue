@@ -1,7 +1,7 @@
 <template>
     <div id="security">
         <div class="banner">
-            <h2 class="banner-title">网站安全策略</h2>
+            <h2 class="banner-title">安全策略</h2>
         </div>
         <div class="panel panel-1">
             <div class="panel-body clearfix">
@@ -120,13 +120,11 @@
             h3 {
                 margin-top: 0;
                 font-size: 32px;
-                font-family: 'PingFangSC-Light' !important;
                 color: #333;
                 font-weight: normal;
             }
             p {
                 font-size: 14px;
-                font-family: 'PingFangSC-Regular' !important;
                 color: #666;
             }
         }
