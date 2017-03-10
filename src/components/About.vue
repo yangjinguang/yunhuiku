@@ -105,7 +105,7 @@
 
             .body-left {
                 float: left;
-                width: 50%;
+                width: calc(100% - 180px);
                 h3 {
                     font-size: 30px;
                     font-weight: normal;
@@ -129,7 +129,7 @@
                 }
             }
             .body-right {
-                width: 50%;
+                width: 180px;
                 float: left;
                 text-align: right;
                 .about-qr {
