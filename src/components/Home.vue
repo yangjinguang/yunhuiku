@@ -52,6 +52,7 @@
         height: 100%;
         .home-banner {
             width: 100%;
+            min-width: 1024px;
             position: absolute;
             height: calc(100% - 40px);
             left: 0;
