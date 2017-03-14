@@ -10,8 +10,20 @@ html, body {
 }
 
 body {
-    background: #eff3fa url('./background-img.png') no-repeat center;
+    background: #eff3fa no-repeat center;
     background-size: cover;
+}
+
+body.person {
+    background-image: url('./background-img-1.png');
+}
+
+body.agent {
+    background-image: url('./background-img-2.png');
+}
+
+body.company {
+    background-image: url('./background-img-3.png');
 }
 
 * {
